@@ -1,0 +1,23 @@
+{
+    "name": "dropboxAPI",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel index.js -d dist",
+        "start": "npm run build && node dist/index.js"
+    },
+    "keywords": [],
+    "author": "Thomas MacLean <hello@thomasmaclean.be> (https://thomasmaclean.be)",
+    "license": "MIT",
+    "dependencies": {
+        "dropbox": "^4.0.17",
+        "node-fetch": "^2.4.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "dotenv-json": "^1.0.0"
+    }
+}
